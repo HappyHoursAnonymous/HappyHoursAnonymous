@@ -18,6 +18,10 @@ body {
 header {
   position: relative;
   background-image: url(https://drscdn.500px.org/photo/4116933/q%3D80_m%3D1500/54a28153694cbf949dc3d925e78c4ecc);
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: $blueLight;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -26,19 +30,20 @@ header {
   padding-right: 0;
   h1 {
     color: $white;
-    background-color: transparent;
+    // background-color: transparent;
     text-align: center;
     margin: 0 auto;
     margin-top: 72px;
     font-size: 6.2em;
   }
   .blue {
-    background-color: $blueLight;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    padding-left: 0;
-    padding-right: 0;
+    height: 300px;
+    // background-color: $blueLight;
+    // position: absolute;
+    // width: 100%;
+    // height: 100%;
+    // padding-left: 0;
+    // padding-right: 0;
   }
 }
 
@@ -71,13 +76,14 @@ section {
   margin-left: -16px;
   border-radius: 3px;
   z-index: -1;
+  padding-bottom: 15px;
 }
 .icon {
   overflow: hidden;
   border-radius: 3px;
-  padding-left:0;
+  padding-left:15px;
   .iconImg {
-    height: 100px;
+    height: 85px;
   }
 }
 
@@ -100,7 +106,6 @@ label {
   font-size: 1.2em;
 }
 
-
-// .col-sm-3 {
-//   margin-top: -90px;
-// }
+div .icon .col-xs-4 {
+  padding-right: 0;
+}

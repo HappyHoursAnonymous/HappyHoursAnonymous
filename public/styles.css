@@ -9,6 +9,10 @@ body {
 header {
   position: relative;
   background-image: url(https://drscdn.500px.org/photo/4116933/q%3D80_m%3D1500/54a28153694cbf949dc3d925e78c4ecc);
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(126, 127, 154, 0.4);
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
@@ -17,18 +21,12 @@ header {
   padding-right: 0; }
   header h1 {
     color: #F9F8F8;
-    background-color: transparent;
     text-align: center;
     margin: 0 auto;
     margin-top: 72px;
     font-size: 6.2em; }
   header .blue {
-    background-color: rgba(126, 127, 154, 0.4);
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    padding-left: 0;
-    padding-right: 0; }
+    height: 300px; }
 
 section {
   margin-top: 30px; }
@@ -54,14 +52,15 @@ section {
   border: 1px solid #ccc;
   margin-left: -16px;
   border-radius: 3px;
-  z-index: -1; }
+  z-index: -1;
+  padding-bottom: 15px; }
 
 .icon {
   overflow: hidden;
   border-radius: 3px;
-  padding-left: 0; }
+  padding-left: 15px; }
   .icon .iconImg {
-    height: 100px; }
+    height: 85px; }
 
 .post {
   border: 1px solid #ccc;
@@ -76,3 +75,6 @@ section {
 
 label {
   font-size: 1.2em; }
+
+div .icon .col-xs-4 {
+  padding-right: 0; }

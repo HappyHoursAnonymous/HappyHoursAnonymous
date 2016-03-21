@@ -1,7 +1,7 @@
 module.exports = {
   post: [
     '<div class="post col-xs-12">',
-    '<div class ="info col-xs-8">',
+    '<div class ="info col-xs-7">',
     '<h3><%= name %></h3>',
     '<h5><%= address %></h5>',
     '<h5><%= phone %></h5>',
@@ -27,7 +27,7 @@ module.exports = {
     '<span>Su </span>',
     '<% } %>',
     '</div>',
-    '<div class="icon col-xs-4">',
+    '<div class="icon col-xs-5">',
     '<img class="iconImg" src="<%= image %>" alt="" />',
     '</div>',
     '<div class="info col-xs-12">',
